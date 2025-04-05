@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378561700565",
+    "project_id": "mewsd-d7082",
+    "storage_bucket": "mewsd-d7082.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378561700565:android:76b1d5cc24b2d6bddef85c",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFQMxUW6p3K82FdqYekJ4_U4X3m3_KEjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
