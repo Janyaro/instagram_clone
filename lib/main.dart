@@ -2,6 +2,7 @@
 import 'package:demo/View/auth_screen_two.dart';
 import 'package:demo/View/home_screen.dart';
 import 'package:demo/View/insta_authorization.dart';
+import 'package:demo/search_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       theme: ThemeData.dark(),
     debugShowCheckedModeBanner: false,
-      home:const HomeScreen(),
+      home:const SearchScreen(),
     );
   }
 }
