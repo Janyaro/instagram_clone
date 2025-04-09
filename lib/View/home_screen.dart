@@ -12,8 +12,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+    return  Scaffold(
+       appBar: AppBar(
         backgroundColor: Colors.grey.shade900,
         toolbarHeight: 80,
         leading: IconButton(onPressed: () {}, icon: const Icon(Icons.camera_alt)),
@@ -27,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(onPressed: () {}, icon: Icon(Icons.send_outlined))
         ],
       ),
+     
       body: CustomScrollView(
         slivers: [
           // Sliver for the horizontal story list
@@ -37,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 scrollDirection: Axis.horizontal,
                 itemCount: 4,
                 itemBuilder: (context, index) {
-                  return StoryComponent();
+                  return const StoryComponent();
                 },
               ),
             ),
@@ -46,13 +47,14 @@ class _HomeScreenState extends State<HomeScreen> {
           SliverList(
             delegate: SliverChildBuilderDelegate(
               (context, index) {
-                return CardComponents();
+                return const CardComponents();
               },
               childCount: 4, // Number of items in the list
             ),
           ),
         ],
       ),
+      
     );
   }
 }
