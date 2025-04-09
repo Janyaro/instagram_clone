@@ -1,3 +1,5 @@
+import 'package:demo/View/following_screen.dart';
+import 'package:demo/View/you_screen.dart';
 import 'package:flutter/material.dart';
 
 class FavouriteScreen extends StatefulWidget {
@@ -21,8 +23,8 @@ class _FavouriteScreenState extends State<FavouriteScreen> {
       ),
       body: TabBarView(
         children: [
-         Text('Following'),
-         Text('You'),
+         FollowingScreen(),
+         YouScreen()
       ]),
     )
     
