@@ -1,8 +1,7 @@
 
-import 'package:demo/View/favourite_screen.dart';
-import 'package:demo/View/following_screen.dart';
+import 'package:demo/View/home_screen.dart';
+import 'package:demo/View/profile_screen.dart';
 import 'package:demo/View/root_screen.dart';
-import 'package:demo/View/you_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       theme: ThemeData.dark(),
     debugShowCheckedModeBanner: false,
-      home:const FavouriteScreen(),
+      home: RootScreen(),
     );
   }
 }

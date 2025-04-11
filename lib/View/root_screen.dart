@@ -1,5 +1,6 @@
 import 'package:demo/View/favourite_screen.dart';
 import 'package:demo/View/home_screen.dart';
+import 'package:demo/View/profile_screen.dart';
 import 'package:demo/View/user_screen.dart';
 import 'package:demo/search_screen.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,8 @@ class _RootScreenState extends State<RootScreen> {
     HomeScreen(),
     SearchScreen(),
 FavouriteScreen(),  
-UserScreen()  
+UserScreen(),
+ProfileScreen()  
     
   ];
   @override
